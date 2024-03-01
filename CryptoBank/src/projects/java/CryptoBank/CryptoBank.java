@@ -3,9 +3,9 @@ package projects.java.CryptoBank;
 import java.util.Scanner;
 
 public class CryptoBank {
-    private static final int MAX_ACCOUNTS = 10; // Maximum number of accounts
+    private static final int MAX_ACCOUNTS = 10; // Guys this for Maximum number of accounts //
     private static BankAccount[] accounts = new BankAccount[MAX_ACCOUNTS];
-    private static int accountCount = 0; // Tracks the number of created accounts
+    private static int accountCount = 0; // Guys this command is for Tracks the number of created accounts //
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -27,10 +27,10 @@ public class CryptoBank {
                     createNewAccount(scanner);
                     break;
                 case 2:
-                    performTransaction(scanner, true); // true for deposit
+                    performTransaction(scanner, true); // true for deposit 
                     break;
                 case 3:
-                    performTransaction(scanner, false); // false for withdraw
+                    performTransaction(scanner, false); // false for withdraw 
                     break;
                 case 4:
                     checkBalance(scanner);
